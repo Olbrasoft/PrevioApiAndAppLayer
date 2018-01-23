@@ -1,0 +1,220 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moon.DAL", "..\Moon.AppLayers\Moon.DAL\Moon.DAL.csproj", "{F25739DA-5BD1-4B58-990A-3F34A1429557}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moon.Convert", "..\Moon.Convert\Moon.Convert\Moon.Convert.csproj", "{D9E19F1A-894D-46C3-BAB8-77003C009DAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moon.BLL", "..\Moon.AppLayers\Moon.BLL\Moon.BLL.csproj", "{39F6CDA2-111F-486B-9DDA-10C51788ECCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestPrevioApiClient", "TestPrevioApiClient\TestPrevioApiClient.csproj", "{389E9546-846E-4D7A-8534-492FCE57F51C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrevioApiClientWebApplication", "PrevioApiClientWebApplication\PrevioApiClientWebApplication.csproj", "{5BA6FB75-8E0A-43B2-843A-0C5DDC067FA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moon.Xml.Serialization", "..\Moon.Xml\Moon.Xml.Serialization\Moon.Xml.Serialization.csproj", "{4CAF8CD0-AA1C-4194-93BB-F4FDADE9A936}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoonXmlSerializationTest", "..\Moon.Xml\MoonXmlSerializationTest\MoonXmlSerializationTest.csproj", "{2011F1CB-92A0-4A35-9083-CB8C18E18748}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Previo.Api.Client.BLL", "Previo.Api.Client.BLL\Previo.Api.Client.BLL.csproj", "{9F481444-A3A8-42C6-B464-B9FDE7445042}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Previo.Api.Client.Core", "Previo.Api.Client.Core\Previo.Api.Client.Core.csproj", "{D58CC7AB-A3E5-48A7-B7A4-8F41B54ED21F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Previo.Api.Client.DAL", "Previo.Api.Client.DAL\Previo.Api.Client.DAL.csproj", "{CF8C31EB-F034-4323-B741-BA99BD6E6CE0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Moon", "Moon", "{C801486F-00B0-45BA-8585-79C03A3C18C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{950E1101-DF77-4A9D-94AD-773CA60BE087}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moon.Net", "..\Moon.Net\Moon.Net\Moon.Net.csproj", "{B63585E7-B4A8-49BA-B253-F3C9584B191F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moon.ExString", "..\Moon.Extensions\Moon.ExString\Moon.ExString.csproj", "{A543F01D-8B5A-4563-8783-F23E63C6300E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moon.Api", "..\Moon.Api\Moon.Api\Moon.Api.csproj", "{39CA8B20-9DAF-4A5B-81A2-C423996686E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoonApiTest", "..\Moon.Api\MoonApiTest\MoonApiTest.csproj", "{9DA3D264-D709-48BD-8A41-B71741556C14}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{4B150D3C-F8EA-41AA-BB49-D2B9893C22B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moon.Web", "..\Moon.Web\Moon.Web\Moon.Web.csproj", "{99D6DC37-4FAE-4D9B-82A6-C7C039237A31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moon.Configuration", "..\Moon.Configuration\Moon.Configuration\Moon.Configuration.csproj", "{BDF8FD83-0526-4FCF-A27B-7CF17325475D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moon.Globalization", "..\Moon.Globalization\Moon.Globalization\Moon.Globalization.csproj", "{43996ACD-A773-4789-A414-0745F27CAF2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moon.Linq", "Moon.Linq\Moon.Linq.csproj", "{E0F7D57D-47B0-4CFC-BA7F-9EB27D1293FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F25739DA-5BD1-4B58-990A-3F34A1429557}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F25739DA-5BD1-4B58-990A-3F34A1429557}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F25739DA-5BD1-4B58-990A-3F34A1429557}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F25739DA-5BD1-4B58-990A-3F34A1429557}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9E19F1A-894D-46C3-BAB8-77003C009DAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9E19F1A-894D-46C3-BAB8-77003C009DAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9E19F1A-894D-46C3-BAB8-77003C009DAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9E19F1A-894D-46C3-BAB8-77003C009DAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39F6CDA2-111F-486B-9DDA-10C51788ECCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39F6CDA2-111F-486B-9DDA-10C51788ECCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39F6CDA2-111F-486B-9DDA-10C51788ECCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39F6CDA2-111F-486B-9DDA-10C51788ECCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{389E9546-846E-4D7A-8534-492FCE57F51C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{389E9546-846E-4D7A-8534-492FCE57F51C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{389E9546-846E-4D7A-8534-492FCE57F51C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{389E9546-846E-4D7A-8534-492FCE57F51C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BA6FB75-8E0A-43B2-843A-0C5DDC067FA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BA6FB75-8E0A-43B2-843A-0C5DDC067FA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BA6FB75-8E0A-43B2-843A-0C5DDC067FA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BA6FB75-8E0A-43B2-843A-0C5DDC067FA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CAF8CD0-AA1C-4194-93BB-F4FDADE9A936}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CAF8CD0-AA1C-4194-93BB-F4FDADE9A936}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CAF8CD0-AA1C-4194-93BB-F4FDADE9A936}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CAF8CD0-AA1C-4194-93BB-F4FDADE9A936}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2011F1CB-92A0-4A35-9083-CB8C18E18748}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2011F1CB-92A0-4A35-9083-CB8C18E18748}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2011F1CB-92A0-4A35-9083-CB8C18E18748}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2011F1CB-92A0-4A35-9083-CB8C18E18748}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F481444-A3A8-42C6-B464-B9FDE7445042}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F481444-A3A8-42C6-B464-B9FDE7445042}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F481444-A3A8-42C6-B464-B9FDE7445042}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F481444-A3A8-42C6-B464-B9FDE7445042}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D58CC7AB-A3E5-48A7-B7A4-8F41B54ED21F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D58CC7AB-A3E5-48A7-B7A4-8F41B54ED21F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D58CC7AB-A3E5-48A7-B7A4-8F41B54ED21F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D58CC7AB-A3E5-48A7-B7A4-8F41B54ED21F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF8C31EB-F034-4323-B741-BA99BD6E6CE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF8C31EB-F034-4323-B741-BA99BD6E6CE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF8C31EB-F034-4323-B741-BA99BD6E6CE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF8C31EB-F034-4323-B741-BA99BD6E6CE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B63585E7-B4A8-49BA-B253-F3C9584B191F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B63585E7-B4A8-49BA-B253-F3C9584B191F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B63585E7-B4A8-49BA-B253-F3C9584B191F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B63585E7-B4A8-49BA-B253-F3C9584B191F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A543F01D-8B5A-4563-8783-F23E63C6300E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A543F01D-8B5A-4563-8783-F23E63C6300E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A543F01D-8B5A-4563-8783-F23E63C6300E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A543F01D-8B5A-4563-8783-F23E63C6300E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39CA8B20-9DAF-4A5B-81A2-C423996686E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39CA8B20-9DAF-4A5B-81A2-C423996686E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39CA8B20-9DAF-4A5B-81A2-C423996686E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39CA8B20-9DAF-4A5B-81A2-C423996686E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DA3D264-D709-48BD-8A41-B71741556C14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DA3D264-D709-48BD-8A41-B71741556C14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DA3D264-D709-48BD-8A41-B71741556C14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DA3D264-D709-48BD-8A41-B71741556C14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99D6DC37-4FAE-4D9B-82A6-C7C039237A31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99D6DC37-4FAE-4D9B-82A6-C7C039237A31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99D6DC37-4FAE-4D9B-82A6-C7C039237A31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99D6DC37-4FAE-4D9B-82A6-C7C039237A31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDF8FD83-0526-4FCF-A27B-7CF17325475D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDF8FD83-0526-4FCF-A27B-7CF17325475D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDF8FD83-0526-4FCF-A27B-7CF17325475D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDF8FD83-0526-4FCF-A27B-7CF17325475D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43996ACD-A773-4789-A414-0745F27CAF2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43996ACD-A773-4789-A414-0745F27CAF2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43996ACD-A773-4789-A414-0745F27CAF2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43996ACD-A773-4789-A414-0745F27CAF2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0F7D57D-47B0-4CFC-BA7F-9EB27D1293FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0F7D57D-47B0-4CFC-BA7F-9EB27D1293FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0F7D57D-47B0-4CFC-BA7F-9EB27D1293FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0F7D57D-47B0-4CFC-BA7F-9EB27D1293FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F25739DA-5BD1-4B58-990A-3F34A1429557} = {C801486F-00B0-45BA-8585-79C03A3C18C3}
+		{D9E19F1A-894D-46C3-BAB8-77003C009DAE} = {C801486F-00B0-45BA-8585-79C03A3C18C3}
+		{39F6CDA2-111F-486B-9DDA-10C51788ECCD} = {C801486F-00B0-45BA-8585-79C03A3C18C3}
+		{389E9546-846E-4D7A-8534-492FCE57F51C} = {950E1101-DF77-4A9D-94AD-773CA60BE087}
+		{4CAF8CD0-AA1C-4194-93BB-F4FDADE9A936} = {C801486F-00B0-45BA-8585-79C03A3C18C3}
+		{2011F1CB-92A0-4A35-9083-CB8C18E18748} = {950E1101-DF77-4A9D-94AD-773CA60BE087}
+		{B63585E7-B4A8-49BA-B253-F3C9584B191F} = {C801486F-00B0-45BA-8585-79C03A3C18C3}
+		{A543F01D-8B5A-4563-8783-F23E63C6300E} = {C801486F-00B0-45BA-8585-79C03A3C18C3}
+		{39CA8B20-9DAF-4A5B-81A2-C423996686E0} = {C801486F-00B0-45BA-8585-79C03A3C18C3}
+		{9DA3D264-D709-48BD-8A41-B71741556C14} = {4B150D3C-F8EA-41AA-BB49-D2B9893C22B7}
+		{4B150D3C-F8EA-41AA-BB49-D2B9893C22B7} = {C801486F-00B0-45BA-8585-79C03A3C18C3}
+		{99D6DC37-4FAE-4D9B-82A6-C7C039237A31} = {C801486F-00B0-45BA-8585-79C03A3C18C3}
+		{BDF8FD83-0526-4FCF-A27B-7CF17325475D} = {C801486F-00B0-45BA-8585-79C03A3C18C3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {090928DA-E675-4CDE-93D4-1A0287D7DFC1}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 19
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://moon.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ..\\Moon.AppLayers\\Moon.DAL\\Moon.DAL.csproj
+		SccProjectTopLevelParentUniqueName1 = Previo.Api.Client.sln
+		SccProjectName1 = ../Moon.AppLayers/Moon.AppLayers/Moon.DAL
+		SccLocalPath1 = ..\\Moon.AppLayers\\Moon.DAL
+		SccProjectUniqueName2 = ..\\Moon.Convert\\Moon.Convert\\Moon.Convert.csproj
+		SccProjectTopLevelParentUniqueName2 = Previo.Api.Client.sln
+		SccProjectName2 = ../Moon.AppLayers/Moon.Convert/Moon.Convert
+		SccLocalPath2 = ..\\Moon.Convert\\Moon.Convert
+		SccProjectUniqueName3 = ..\\Moon.AppLayers\\Moon.BLL\\Moon.BLL.csproj
+		SccProjectTopLevelParentUniqueName3 = Previo.Api.Client.sln
+		SccProjectName3 = ../Moon.AppLayers/Moon.AppLayers/Moon.BLL
+		SccLocalPath3 = ..\\Moon.AppLayers\\Moon.BLL
+		SccProjectUniqueName4 = PrevioApiClientWebApplication\\PrevioApiClientWebApplication.csproj
+		SccProjectName4 = PrevioApiClientWebApplication
+		SccLocalPath4 = PrevioApiClientWebApplication
+		SccProjectUniqueName5 = TestPrevioApiClient\\TestPrevioApiClient.csproj
+		SccProjectTopLevelParentUniqueName5 = Previo.Api.Client.sln
+		SccProjectName5 = TestPrevioApiClient
+		SccLocalPath5 = TestPrevioApiClient
+		SccProjectUniqueName6 = Previo.Api.Client.BLL\\Previo.Api.Client.BLL.csproj
+		SccProjectName6 = Previo.Api.Client.BLL
+		SccLocalPath6 = Previo.Api.Client.BLL
+		SccProjectUniqueName7 = Previo.Api.Client.Core\\Previo.Api.Client.Core.csproj
+		SccProjectName7 = Previo.Api.Client.Core
+		SccLocalPath7 = Previo.Api.Client.Core
+		SccProjectUniqueName8 = Previo.Api.Client.DAL\\Previo.Api.Client.DAL.csproj
+		SccProjectName8 = Previo.Api.Client.DAL
+		SccLocalPath8 = Previo.Api.Client.DAL
+		SccProjectUniqueName9 = ..\\Moon.Xml\\Moon.Xml.Serialization\\Moon.Xml.Serialization.csproj
+		SccProjectTopLevelParentUniqueName9 = Previo.Api.Client.sln
+		SccProjectName9 = ../Moon.XML/Moon.Xml.Serialization
+		SccLocalPath9 = ..\\Moon.Xml\\Moon.Xml.Serialization
+		SccProjectUniqueName10 = ..\\Moon.Xml\\MoonXmlSerializationTest\\MoonXmlSerializationTest.csproj
+		SccProjectTopLevelParentUniqueName10 = Previo.Api.Client.sln
+		SccProjectName10 = ../Moon.XML/MoonXmlSerializationTest
+		SccLocalPath10 = ..\\Moon.Xml\\MoonXmlSerializationTest
+		SccProjectUniqueName11 = ..\\Moon.Net\\Moon.Net\\Moon.Net.csproj
+		SccProjectTopLevelParentUniqueName11 = Previo.Api.Client.sln
+		SccProjectName11 = ../Moon.Net/Moon.Net
+		SccLocalPath11 = ..\\Moon.Net\\Moon.Net
+		SccProjectUniqueName12 = ..\\Moon.Extensions\\Moon.ExString\\Moon.ExString.csproj
+		SccProjectTopLevelParentUniqueName12 = Previo.Api.Client.sln
+		SccProjectName12 = ../Moon.Extensions/Moon.ExString
+		SccLocalPath12 = ..\\Moon.Extensions\\Moon.ExString
+		SccProjectUniqueName13 = ..\\Moon.Api\\Moon.Api\\Moon.Api.csproj
+		SccProjectTopLevelParentUniqueName13 = Previo.Api.Client.sln
+		SccProjectName13 = ../Moon.Api/Moon.Api
+		SccLocalPath13 = ..\\Moon.Api\\Moon.Api
+		SccProjectUniqueName14 = ..\\Moon.Api\\MoonApiTest\\MoonApiTest.csproj
+		SccProjectTopLevelParentUniqueName14 = Previo.Api.Client.sln
+		SccProjectName14 = ../Moon.Api/MoonApiTest
+		SccLocalPath14 = ..\\Moon.Api\\MoonApiTest
+		SccProjectUniqueName15 = ..\\Moon.Web\\Moon.Web\\Moon.Web.csproj
+		SccProjectTopLevelParentUniqueName15 = Previo.Api.Client.sln
+		SccProjectName15 = ../Moon.Web/Moon.Web
+		SccLocalPath15 = ..\\Moon.Web\\Moon.Web
+		SccProjectUniqueName16 = ..\\Moon.Configuration\\Moon.Configuration\\Moon.Configuration.csproj
+		SccProjectTopLevelParentUniqueName16 = Previo.Api.Client.sln
+		SccProjectName16 = ../Moon.Configuration/Moon.Configuration
+		SccLocalPath16 = ..\\Moon.Configuration\\Moon.Configuration
+		SccProjectUniqueName17 = ..\\Moon.Globalization\\Moon.Globalization\\Moon.Globalization.csproj
+		SccProjectName17 = ../Moon.Globalization/Moon.Globalization
+		SccLocalPath17 = ..\\Moon.Globalization\\Moon.Globalization
+		SccProjectUniqueName18 = Moon.Linq\\Moon.Linq.csproj
+		SccProjectName18 = Moon.Linq
+		SccLocalPath18 = Moon.Linq
+	EndGlobalSection
+EndGlobal

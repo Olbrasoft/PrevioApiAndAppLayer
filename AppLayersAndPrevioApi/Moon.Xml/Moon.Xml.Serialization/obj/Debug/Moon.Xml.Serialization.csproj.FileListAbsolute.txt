@@ -1,0 +1,5 @@
+D:\WorkSpaces\Moon.Xml\Moon.Xml.Serialization\bin\Debug\Moon.Xml.Serialization.dll
+D:\WorkSpaces\Moon.Xml\Moon.Xml.Serialization\bin\Debug\Moon.Xml.Serialization.pdb
+D:\WorkSpaces\Moon.Xml\Moon.Xml.Serialization\obj\Debug\Moon.Xml.Serialization.csproj.CoreCompileInputs.cache
+D:\WorkSpaces\Moon.Xml\Moon.Xml.Serialization\obj\Debug\Moon.Xml.Serialization.dll
+D:\WorkSpaces\Moon.Xml\Moon.Xml.Serialization\obj\Debug\Moon.Xml.Serialization.pdb

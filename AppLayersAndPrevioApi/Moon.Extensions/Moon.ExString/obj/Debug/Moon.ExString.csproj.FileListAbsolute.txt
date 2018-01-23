@@ -1,0 +1,5 @@
+D:\WorkSpaces\Moon.Extensions\Moon.ExString\bin\Debug\Moon.ExString.dll
+D:\WorkSpaces\Moon.Extensions\Moon.ExString\bin\Debug\Moon.ExString.pdb
+D:\WorkSpaces\Moon.Extensions\Moon.ExString\obj\Debug\Moon.ExString.csproj.CoreCompileInputs.cache
+D:\WorkSpaces\Moon.Extensions\Moon.ExString\obj\Debug\Moon.ExString.dll
+D:\WorkSpaces\Moon.Extensions\Moon.ExString\obj\Debug\Moon.ExString.pdb

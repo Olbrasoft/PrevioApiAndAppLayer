@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{43996ACD-A773-4789-A414-0745F27CAF2D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Moon.Globalization</RootNamespace>
+    <AssemblyName>Moon.Globalization</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLL\DefaultCultureWebConfigReadOnlyService.cs" />
+    <Compile Include="BLL\EnableCultureReadOnlyService .cs" />
+    <Compile Include="BLL\IDefaultCultureService.cs" />
+    <Compile Include="BLL\IEnableCultureReadOnlyService.cs" />
+    <Compile Include="CultureInfoParser.cs" />
+    <Compile Include="DAL\BaseDefaultCultureQueryStringReadOnlyRepository.cs" />
+    <Compile Include="DAL\IDefaultCultureReadOnlyRepository.cs" />
+    <Compile Include="DAL\IEnableCultureReadOnlyRepository.cs" />
+    <Compile Include="ExCultureInfo.cs" />
+    <Compile Include="ICultureInfoParser.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Moon.AppLayers\Moon.BLL\Moon.BLL.csproj">
+      <Project>{39F6CDA2-111F-486B-9DDA-10C51788ECCD}</Project>
+      <Name>Moon.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Moon.AppLayers\Moon.DAL\Moon.DAL.csproj">
+      <Project>{f25739da-5bd1-4b58-990a-3f34a1429557}</Project>
+      <Name>Moon.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Moon.Convert\Moon.Convert\Moon.Convert.csproj">
+      <Project>{D9E19F1A-894D-46C3-BAB8-77003C009DAE}</Project>
+      <Name>Moon.Convert</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

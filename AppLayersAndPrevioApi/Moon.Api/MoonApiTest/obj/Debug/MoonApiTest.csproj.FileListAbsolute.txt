@@ -1,0 +1,13 @@
+D:\WorkSpaces\Moon.Api\MoonApiTest\bin\Debug\MoonApiTest.dll
+D:\WorkSpaces\Moon.Api\MoonApiTest\bin\Debug\MoonApiTest.pdb
+D:\WorkSpaces\Moon.Api\MoonApiTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\WorkSpaces\Moon.Api\MoonApiTest\bin\Debug\Moon.Api.dll
+D:\WorkSpaces\Moon.Api\MoonApiTest\bin\Debug\Moon.ExString.dll
+D:\WorkSpaces\Moon.Api\MoonApiTest\bin\Debug\Moon.Net.dll
+D:\WorkSpaces\Moon.Api\MoonApiTest\bin\Debug\Moon.ExString.pdb
+D:\WorkSpaces\Moon.Api\MoonApiTest\bin\Debug\Moon.Net.pdb
+D:\WorkSpaces\Moon.Api\MoonApiTest\bin\Debug\Moon.Api.pdb
+D:\WorkSpaces\Moon.Api\MoonApiTest\obj\Debug\MoonApiTest.csprojResolveAssemblyReference.cache
+D:\WorkSpaces\Moon.Api\MoonApiTest\obj\Debug\MoonApiTest.csproj.CoreCompileInputs.cache
+D:\WorkSpaces\Moon.Api\MoonApiTest\obj\Debug\MoonApiTest.dll
+D:\WorkSpaces\Moon.Api\MoonApiTest\obj\Debug\MoonApiTest.pdb

@@ -1,0 +1,5 @@
+D:\WorkSpaces\Moon.Net\Moon.Net\bin\Debug\Moon.Net.dll
+D:\WorkSpaces\Moon.Net\Moon.Net\bin\Debug\Moon.Net.pdb
+D:\WorkSpaces\Moon.Net\Moon.Net\obj\Debug\Moon.Net.csproj.CoreCompileInputs.cache
+D:\WorkSpaces\Moon.Net\Moon.Net\obj\Debug\Moon.Net.dll
+D:\WorkSpaces\Moon.Net\Moon.Net\obj\Debug\Moon.Net.pdb

@@ -1,0 +1,112 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moon.Globalization", "Moon.Globalization\Moon.Globalization.csproj", "{43996ACD-A773-4789-A414-0745F27CAF2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moon.Convert", "..\Moon.Convert\Moon.Convert\Moon.Convert.csproj", "{D9E19F1A-894D-46C3-BAB8-77003C009DAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Moon.Globalization", "Test.Moon.Globalization\Test.Moon.Globalization.csproj", "{BE2ACF7F-8842-4F71-8D0C-9B57E2A0ED5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moon.DAL", "..\Moon.App.Layers\Moon.DAL\Moon.DAL.csproj", "{F25739DA-5BD1-4B58-990A-3F34A1429557}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moon.BLL", "..\Moon.App.Layers\Moon.BLL\Moon.BLL.csproj", "{39F6CDA2-111F-486B-9DDA-10C51788ECCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moon.Globalization.DAL.SQL", "Moon.Globalization.DAL.SQL\Moon.Globalization.DAL.SQL.csproj", "{E9FB1BAC-1C6A-42E3-8C81-D91ECE914620}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moon.Globalization.DAL.FromConfig", "Moon.Globalization.DAL.FromConfig\Moon.Globalization.DAL.FromConfig.csproj", "{D24A18A5-87B1-4CCE-82CA-332F67798579}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moon.DAL.FromConfig", "..\Moon.App.Layers\Moon.DAL.FromConfig\Moon.DAL.FromConfig.csproj", "{EBEFFD95-DFAB-4066-B66A-192B2776D008}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moon.Globalization.DAL.FromConfigTests", "Moon.Globalization.DAL.FromConfigTests\Moon.Globalization.DAL.FromConfigTests.csproj", "{D2885550-4F64-4527-9FC8-89A5E3E8A9F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWeb", "TestWeb\TestWeb.csproj", "{6C0E247E-A68C-44D1-98B0-B572A347C0D4}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 11
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://moon.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ..\\Moon.App.Layers\\Moon.DAL\\Moon.DAL.csproj
+		SccProjectName1 = ../Moon.AppLayers/Moon.DAL
+		SccLocalPath1 = ..\\Moon.App.Layers\\Moon.DAL
+		SccProjectUniqueName2 = ..\\Moon.App.Layers\\Moon.BLL\\Moon.BLL.csproj
+		SccProjectName2 = ../Moon.AppLayers/Moon.BLL
+		SccLocalPath2 = ..\\Moon.App.Layers\\Moon.BLL
+		SccProjectUniqueName3 = ..\\Moon.Convert\\Moon.Convert\\Moon.Convert.csproj
+		SccProjectName3 = ../TeamProjetImaps/Moon.Convert/Moon.Convert
+		SccLocalPath3 = ..\\Moon.Convert\\Moon.Convert
+		SccProjectUniqueName4 = ..\\Moon.App.Layers\\Moon.DAL.FromConfig\\Moon.DAL.FromConfig.csproj
+		SccProjectName4 = ../Moon.AppLayers/Moon.DAL.FromConfig
+		SccLocalPath4 = ..\\Moon.App.Layers\\Moon.DAL.FromConfig
+		SccProjectUniqueName5 = Moon.Globalization.DAL.FromConfig\\Moon.Globalization.DAL.FromConfig.csproj
+		SccProjectName5 = Moon.Globalization.DAL.FromConfig
+		SccLocalPath5 = Moon.Globalization.DAL.FromConfig
+		SccProjectUniqueName6 = Moon.Globalization.DAL.SQL\\Moon.Globalization.DAL.SQL.csproj
+		SccProjectName6 = Moon.Globalization.DAL.SQL
+		SccLocalPath6 = Moon.Globalization.DAL.SQL
+		SccProjectUniqueName7 = Moon.Globalization\\Moon.Globalization.csproj
+		SccProjectName7 = Moon.Globalization
+		SccLocalPath7 = Moon.Globalization
+		SccProjectUniqueName8 = Test.Moon.Globalization\\Test.Moon.Globalization.csproj
+		SccProjectName8 = Test.Moon.Globalization
+		SccLocalPath8 = Test.Moon.Globalization
+		SccProjectUniqueName9 = Moon.Globalization.DAL.FromConfigTests\\Moon.Globalization.DAL.FromConfigTests.csproj
+		SccProjectName9 = Moon.Globalization.DAL.FromConfigTests
+		SccLocalPath9 = Moon.Globalization.DAL.FromConfigTests
+		SccProjectUniqueName10 = TestWeb\\TestWeb.csproj
+		SccProjectName10 = TestWeb
+		SccLocalPath10 = TestWeb
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43996ACD-A773-4789-A414-0745F27CAF2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43996ACD-A773-4789-A414-0745F27CAF2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43996ACD-A773-4789-A414-0745F27CAF2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43996ACD-A773-4789-A414-0745F27CAF2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9E19F1A-894D-46C3-BAB8-77003C009DAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9E19F1A-894D-46C3-BAB8-77003C009DAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9E19F1A-894D-46C3-BAB8-77003C009DAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9E19F1A-894D-46C3-BAB8-77003C009DAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE2ACF7F-8842-4F71-8D0C-9B57E2A0ED5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE2ACF7F-8842-4F71-8D0C-9B57E2A0ED5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE2ACF7F-8842-4F71-8D0C-9B57E2A0ED5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE2ACF7F-8842-4F71-8D0C-9B57E2A0ED5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F25739DA-5BD1-4B58-990A-3F34A1429557}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F25739DA-5BD1-4B58-990A-3F34A1429557}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F25739DA-5BD1-4B58-990A-3F34A1429557}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F25739DA-5BD1-4B58-990A-3F34A1429557}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39F6CDA2-111F-486B-9DDA-10C51788ECCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39F6CDA2-111F-486B-9DDA-10C51788ECCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39F6CDA2-111F-486B-9DDA-10C51788ECCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39F6CDA2-111F-486B-9DDA-10C51788ECCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9FB1BAC-1C6A-42E3-8C81-D91ECE914620}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9FB1BAC-1C6A-42E3-8C81-D91ECE914620}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9FB1BAC-1C6A-42E3-8C81-D91ECE914620}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9FB1BAC-1C6A-42E3-8C81-D91ECE914620}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D24A18A5-87B1-4CCE-82CA-332F67798579}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D24A18A5-87B1-4CCE-82CA-332F67798579}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D24A18A5-87B1-4CCE-82CA-332F67798579}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D24A18A5-87B1-4CCE-82CA-332F67798579}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBEFFD95-DFAB-4066-B66A-192B2776D008}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBEFFD95-DFAB-4066-B66A-192B2776D008}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBEFFD95-DFAB-4066-B66A-192B2776D008}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBEFFD95-DFAB-4066-B66A-192B2776D008}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2885550-4F64-4527-9FC8-89A5E3E8A9F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2885550-4F64-4527-9FC8-89A5E3E8A9F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2885550-4F64-4527-9FC8-89A5E3E8A9F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2885550-4F64-4527-9FC8-89A5E3E8A9F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C0E247E-A68C-44D1-98B0-B572A347C0D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C0E247E-A68C-44D1-98B0-B572A347C0D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C0E247E-A68C-44D1-98B0-B572A347C0D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C0E247E-A68C-44D1-98B0-B572A347C0D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

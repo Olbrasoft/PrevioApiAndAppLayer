@@ -1,0 +1,5 @@
+D:\WorkSpaces\Moon.Convert\Moon.Convert\bin\Debug\Moon.Convert.dll
+D:\WorkSpaces\Moon.Convert\Moon.Convert\bin\Debug\Moon.Convert.pdb
+D:\WorkSpaces\Moon.Convert\Moon.Convert\obj\Debug\Moon.Convert.csproj.CoreCompileInputs.cache
+D:\WorkSpaces\Moon.Convert\Moon.Convert\obj\Debug\Moon.Convert.dll
+D:\WorkSpaces\Moon.Convert\Moon.Convert\obj\Debug\Moon.Convert.pdb

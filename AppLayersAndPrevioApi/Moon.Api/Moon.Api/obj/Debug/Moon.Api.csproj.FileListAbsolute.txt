@@ -1,0 +1,10 @@
+D:\WorkSpaces\Moon.Api\Moon.Api\bin\Debug\Moon.Api.dll
+D:\WorkSpaces\Moon.Api\Moon.Api\bin\Debug\Moon.Api.pdb
+D:\WorkSpaces\Moon.Api\Moon.Api\bin\Debug\Moon.ExString.dll
+D:\WorkSpaces\Moon.Api\Moon.Api\bin\Debug\Moon.Net.dll
+D:\WorkSpaces\Moon.Api\Moon.Api\bin\Debug\Moon.ExString.pdb
+D:\WorkSpaces\Moon.Api\Moon.Api\bin\Debug\Moon.Net.pdb
+D:\WorkSpaces\Moon.Api\Moon.Api\obj\Debug\Moon.Api.csprojResolveAssemblyReference.cache
+D:\WorkSpaces\Moon.Api\Moon.Api\obj\Debug\Moon.Api.csproj.CoreCompileInputs.cache
+D:\WorkSpaces\Moon.Api\Moon.Api\obj\Debug\Moon.Api.dll
+D:\WorkSpaces\Moon.Api\Moon.Api\obj\Debug\Moon.Api.pdb

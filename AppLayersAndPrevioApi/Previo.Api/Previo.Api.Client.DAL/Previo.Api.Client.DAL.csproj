@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CF8C31EB-F034-4323-B741-BA99BD6E6CE0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Previo.Api.Client.DAL</RootNamespace>
+    <AssemblyName>Previo.Api.Client.DAL</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ConfigurationPrevioRepository.cs" />
+    <Compile Include="ConfigurationPrevioRepositoryFromWebConfig.cs" />
+    <Compile Include="PreviApiRequestConfiguration.cs" />
+    <Compile Include="PrevioApiXmlProvider.cs" />
+    <Compile Include="PrevioRepository.cs" />
+    <Compile Include="PrevioValidXmlBuilder.cs" />
+    <Compile Include="PrevioXmlDeserializer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Moon.Api\Moon.Api\Moon.Api.csproj">
+      <Project>{39CA8B20-9DAF-4A5B-81A2-C423996686E0}</Project>
+      <Name>Moon.Api</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Moon.Configuration\Moon.Configuration\Moon.Configuration.csproj">
+      <Project>{BDF8FD83-0526-4FCF-A27B-7CF17325475D}</Project>
+      <Name>Moon.Configuration</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Moon.Net\Moon.Net\Moon.Net.csproj">
+      <Project>{B63585E7-B4A8-49BA-B253-F3C9584B191F}</Project>
+      <Name>Moon.Net</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Moon.Xml\Moon.Xml.Serialization\Moon.Xml.Serialization.csproj">
+      <Project>{4CAF8CD0-AA1C-4194-93BB-F4FDADE9A936}</Project>
+      <Name>Moon.Xml.Serialization</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Previo.Api.Client.Core\Previo.Api.Client.Core.csproj">
+      <Project>{d58cc7ab-a3e5-48a7-b7a4-8f41b54ed21f}</Project>
+      <Name>Previo.Api.Client.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

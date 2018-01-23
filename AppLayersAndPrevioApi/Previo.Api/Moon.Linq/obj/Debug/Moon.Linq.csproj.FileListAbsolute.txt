@@ -1,0 +1,10 @@
+D:\WorkSpaces\Moon.Linq\bin\Debug\Moon.Linq.dll
+D:\WorkSpaces\Moon.Linq\bin\Debug\Moon.Linq.pdb
+D:\WorkSpaces\Moon.Linq\obj\Debug\Moon.Linq.csproj.CoreCompileInputs.cache
+D:\WorkSpaces\Moon.Linq\obj\Debug\Moon.Linq.dll
+D:\WorkSpaces\Moon.Linq\obj\Debug\Moon.Linq.pdb
+D:\WorkSpaces\Previo.Api\Moon.Linq\bin\Debug\Moon.Linq.dll
+D:\WorkSpaces\Previo.Api\Moon.Linq\bin\Debug\Moon.Linq.pdb
+D:\WorkSpaces\Previo.Api\Moon.Linq\obj\Debug\Moon.Linq.csproj.CoreCompileInputs.cache
+D:\WorkSpaces\Previo.Api\Moon.Linq\obj\Debug\Moon.Linq.dll
+D:\WorkSpaces\Previo.Api\Moon.Linq\obj\Debug\Moon.Linq.pdb

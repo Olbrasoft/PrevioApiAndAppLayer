@@ -1,0 +1,5 @@
+D:\WorkSpaces\Moon.Web\Moon.Web\bin\Debug\Moon.Web.HttpUtility.dll
+D:\WorkSpaces\Moon.Web\Moon.Web\bin\Debug\Moon.Web.HttpUtility.pdb
+D:\WorkSpaces\Moon.Web\Moon.Web\obj\Debug\Moon.Web.csproj.CoreCompileInputs.cache
+D:\WorkSpaces\Moon.Web\Moon.Web\obj\Debug\Moon.Web.HttpUtility.dll
+D:\WorkSpaces\Moon.Web\Moon.Web\obj\Debug\Moon.Web.HttpUtility.pdb

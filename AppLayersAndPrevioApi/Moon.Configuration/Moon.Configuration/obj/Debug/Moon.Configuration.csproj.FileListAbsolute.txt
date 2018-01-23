@@ -1,0 +1,5 @@
+D:\WorkSpaces\Moon.Configuration\Moon.Configuration\bin\Debug\Moon.Configuration.dll
+D:\WorkSpaces\Moon.Configuration\Moon.Configuration\bin\Debug\Moon.Configuration.pdb
+D:\WorkSpaces\Moon.Configuration\Moon.Configuration\obj\Debug\Moon.Configuration.csproj.CoreCompileInputs.cache
+D:\WorkSpaces\Moon.Configuration\Moon.Configuration\obj\Debug\Moon.Configuration.dll
+D:\WorkSpaces\Moon.Configuration\Moon.Configuration\obj\Debug\Moon.Configuration.pdb

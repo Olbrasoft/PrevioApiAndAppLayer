@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{389E9546-846E-4D7A-8534-492FCE57F51C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TestPrevioApiClient</RootNamespace>
+    <AssemblyName>TestPrevioApiClient</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <ReferencePath>$(ProgramFiles)\Common Files\microsoft shared\VSTT\$(VisualStudioVersion)\UITestExtensionPackages</ReferencePath>
+    <IsCodedUITest>False</IsCodedUITest>
+    <TestProjectType>UnitTest</TestProjectType>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Practices.ServiceLocation">
+      <HintPath>..\packages\CommonServiceLocator.1.0\lib\NET35\Microsoft.Practices.ServiceLocation.dll</HintPath>
+    </Reference>
+    <Reference Include="Ninject">
+      <HintPath>..\packages\Ninject.2.2.1.4\lib\net40-Full\Ninject.dll</HintPath>
+    </Reference>
+    <Reference Include="NinjectAdapter">
+      <HintPath>..\packages\CommonServiceLocator.NinjectAdapter.1.0.0.0\lib\NinjectAdapter.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <Choose>
+    <When Condition="('$(VisualStudioVersion)' == '10.0' or '$(VisualStudioVersion)' == '') and '$(TargetFrameworkVersion)' == 'v3.5'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+      </ItemGroup>
+    </When>
+    <Otherwise>
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework" />
+      </ItemGroup>
+    </Otherwise>
+  </Choose>
+  <ItemGroup>
+    <Compile Include="ActivateDependencyInjection.cs" />
+    <Compile Include="BaseTest.cs" />
+    <Compile Include="ExampleAdvanceConfiguration.cs" />
+    <Compile Include="ExampleSimpleConfiguration.cs" />
+    <Compile Include="IMockRepository.cs" />
+    <Compile Include="MockPrevioRepository.cs" />
+    <Compile Include="PrevioRepositoryConfiguration.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestBookingService.cs" />
+    <Compile Include="TestDeserializationLocalXml.cs" />
+    <Compile Include="TestFilterSearchBonuses.cs" />
+    <Compile Include="TestHotelLocalMockRepository.cs" />
+    <Compile Include="TestHotelsService.cs" />
+    <Compile Include="TestNullClass.cs" />
+    <Compile Include="TestPrevioApiXmlProvider.cs" />
+    <Compile Include="TestPrevioRepository.cs" />
+    <Compile Include="TestSystemService.cs" />
+    <Compile Include="TestHotelService.cs" />
+    <Compile Include="TestWebConfigPrevioApiConfiguration.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Moon.Api\Moon.Api\Moon.Api.csproj">
+      <Project>{39CA8B20-9DAF-4A5B-81A2-C423996686E0}</Project>
+      <Name>Moon.Api</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Moon.Configuration\Moon.Configuration\Moon.Configuration.csproj">
+      <Project>{BDF8FD83-0526-4FCF-A27B-7CF17325475D}</Project>
+      <Name>Moon.Configuration</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Moon.Net\Moon.Net\Moon.Net.csproj">
+      <Project>{B63585E7-B4A8-49BA-B253-F3C9584B191F}</Project>
+      <Name>Moon.Net</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Moon.Web\Moon.Web\Moon.Web.csproj">
+      <Project>{99d6dc37-4fae-4d9b-82a6-c7c039237a31}</Project>
+      <Name>Moon.Web</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Moon.Xml\Moon.Xml.Serialization\Moon.Xml.Serialization.csproj">
+      <Project>{4caf8cd0-aa1c-4194-93bb-f4fdade9a936}</Project>
+      <Name>Moon.Xml.Serialization</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Previo.Api.Client.BLL\Previo.Api.Client.BLL.csproj">
+      <Project>{9f481444-a3a8-42c6-b464-b9fde7445042}</Project>
+      <Name>Previo.Api.Client.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Previo.Api.Client.Core\Previo.Api.Client.Core.csproj">
+      <Project>{d58cc7ab-a3e5-48a7-b7a4-8f41b54ed21f}</Project>
+      <Name>Previo.Api.Client.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Previo.Api.Client.DAL\Previo.Api.Client.DAL.csproj">
+      <Project>{cf8c31eb-f034-4323-b741-ba99bd6e6ce0}</Project>
+      <Name>Previo.Api.Client.DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MockData\Hotel.getRates.xml" />
+    <Content Include="MockData\Hotels.searchBonuses.xml" />
+    <Content Include="MockData\System.getHotelProperties.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="MockData\TestNullFile.txt" />
+    <Content Include="MockData\TestReturnXmlBookingGetFreeCapacity.xml" />
+    <Content Include="MockData\System.getObjectKindProperties.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Choose>
+    <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Extension, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITesting, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+      </ItemGroup>
+    </When>
+  </Choose>
+  <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

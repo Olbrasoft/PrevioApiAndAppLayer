@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hotelProperties>
+  <group>
+    <hpkId>1</hpkId>
+    <name>Služby a vybavení</name>
+    <properties>
+      <property>
+        <hopId>3</hopId>
+        <name>Konferenční/společenská místnost</name>
+        <icon>
+          <url>http://admin.previo.cz/images/share/propertyHotel/31x31/03.gif</url>
+        </icon>
+        <distanceGet>true</distanceGet>
+        <priceGet>true</priceGet>
+        <supervisedGet>true</supervisedGet>
+        <hotelOrRoomGet>true</hotelOrRoomGet>
+
+
+      </property>
+      <property>
+        <hopId>4</hopId>
+        <name>TV místnost</name>
+        <icon>
+          <url>http://admin.previo.cz/images/share/propertyHotel/31x31/04.gif</url>
+        </icon>
+        <distanceGet>false</distanceGet>
+        <priceGet>false</priceGet>
+        <supervisedGet>false</supervisedGet>
+        <hotelOrRoomGet>false</hotelOrRoomGet>
+      </property>
+    </properties>
+  </group>
+  <group>
+    <hpkId>2</hpkId>
+    <name>Sport</name>
+    <properties>
+      <property>
+        <hopId>1</hopId>
+        <name>Bazén - vnitřní</name>
+        <icon>
+          <url>http://admin.previo.cz/images/share/propertyHotel/31x31/01.gif</url>
+        </icon>
+        <distanceGet>true</distanceGet>
+        <priceGet>false</priceGet>
+        <supervisedGet>false</supervisedGet>
+        <hotelOrRoomGet>false</hotelOrRoomGet>
+      </property>
+      <property>
+        <hopId>2</hopId>
+        <name>Koupání - venkovní</name>
+        <icon>
+          <url>http://admin.previo.cz/images/share/propertyHotel/31x31/02.gif</url>
+        </icon>
+        <distanceGet>true</distanceGet>
+        <priceGet>false</priceGet>
+        <supervisedGet>false</supervisedGet>
+        <hotelOrRoomGet>false</hotelOrRoomGet>
+      </property>
+    </properties>
+  </group>
+</hotelProperties>

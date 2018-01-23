@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D58CC7AB-A3E5-48A7-B7A4-8F41B54ED21F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Previo.Api.Client</RootNamespace>
+    <AssemblyName>Previo.Api.Client.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Address.cs" />
+    <Compile Include="BaseDiscountRate.cs" />
+    <Compile Include="BaseFromTo.cs" />
+    <Compile Include="BaseMeal.cs" />
+    <Compile Include="BaseObjectKind.cs" />
+    <Compile Include="BasePackage.cs" />
+    <Compile Include="BaseProperty.cs" />
+    <Compile Include="BaseRoom.cs" />
+    <Compile Include="BLL\IBookingService.cs" />
+    <Compile Include="BLL\ICollaboration.cs" />
+    <Compile Include="BLL\ICurrencies.cs" />
+    <Compile Include="BLL\IHotelService.cs" />
+    <Compile Include="BLL\ISeacrhBonusesFilter.cs" />
+    <Compile Include="BLL\IHotelsService.cs" />
+    <Compile Include="BLL\IOrder.cs" />
+    <Compile Include="BLL\ISearchFilter.cs" />
+    <Compile Include="BLL\ISystemService.cs" />
+    <Compile Include="BLL\ITerm.cs" />
+    <Compile Include="BLL\IWelcomeEmailAddText.cs" />
+    <Compile Include="Bonuses.cs" />
+    <Compile Include="Change.cs" />
+    <Compile Include="Changes.cs" />
+    <Compile Include="ChangeType.cs" />
+    <Compile Include="Classification.cs" />
+    <Compile Include="Closed.cs" />
+    <Compile Include="Collaboration.cs" />
+    <Compile Include="Company.cs" />
+    <Compile Include="Contingent.cs" />
+    <Compile Include="County.cs" />
+    <Compile Include="CreditCardType.cs" />
+    <Compile Include="CreditCardTypes.cs" />
+    <Compile Include="Currencies.cs" />
+    <Compile Include="Currency.cs" />
+    <Compile Include="DAL\IPrevioApiXmlProvider.cs" />
+    <Compile Include="DAL\IPrevioApiRequestConfiguration.cs" />
+    <Compile Include="DAL\IConfigurationPrevioRepository.cs" />
+    <Compile Include="DAL\IPrevioRepository.cs" />
+    <Compile Include="DAL\IPrevioValidXmlBuilder.cs" />
+    <Compile Include="DAL\IPrevioXmlDeserializer.cs" />
+    <Compile Include="DaysWeek.cs" />
+    <Compile Include="Descriptions.cs" />
+    <Compile Include="Document.cs" />
+    <Compile Include="Documents.cs" />
+    <Compile Include="Error.cs" />
+    <Compile Include="FilterSearchBonuses.cs" />
+    <Compile Include="FirstMinute.cs" />
+    <Compile Include="FreeCapacity.cs" />
+    <Compile Include="Gallery.cs" />
+    <Compile Include="Gps.cs" />
+    <Compile Include="PrevioApiConfiguration.cs" />
+    <Compile Include="RequiredGuaranteeTypes.cs" />
+    <Compile Include="Guest.cs" />
+    <Compile Include="GuestCategories.cs" />
+    <Compile Include="GuestCategory.cs" />
+    <Compile Include="GuestReview.cs" />
+    <Compile Include="GuestReviews.cs" />
+    <Compile Include="Hotel.cs" />
+    <Compile Include="HotelProperties.cs" />
+    <Compile Include="Hotels.cs" />
+    <Compile Include="HotelType.cs" />
+    <Compile Include="HotelTypes.cs" />
+    <Compile Include="BLL\IToPrevioSnippetXml.cs" />
+    <Compile Include="BLL\ILimit.cs" />
+    <Compile Include="Language.cs" />
+    <Compile Include="Languages.cs" />
+    <Compile Include="LastMinute.cs" />
+    <Compile Include="License.cs" />
+    <Compile Include="Limit.cs" />
+    <Compile Include="Localities.cs" />
+    <Compile Include="Locality.cs" />
+    <Compile Include="LongTerm.cs" />
+    <Compile Include="Meal.cs" />
+    <Compile Include="Meals.cs" />
+    <Compile Include="Message.cs" />
+    <Compile Include="Messages.cs" />
+    <Compile Include="MessageType.cs" />
+    <Compile Include="ObjectKind.cs" />
+    <Compile Include="ObjectKindProperties.cs" />
+    <Compile Include="ObjectKinds.cs" />
+    <Compile Include="Order.cs" />
+    <Compile Include="Package.cs" />
+    <Compile Include="Packages.cs" />
+    <Compile Include="Photo.cs" />
+    <Compile Include="Photogalleries.cs" />
+    <Compile Include="Price.cs" />
+    <Compile Include="PriceActions.cs" />
+    <Compile Include="Procedure.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="HotelProperty.cs" />
+    <Compile Include="Rate.cs" />
+    <Compile Include="RatesContingentsClosures.cs" />
+    <Compile Include="Rating.cs" />
+    <Compile Include="Region.cs" />
+    <Compile Include="Regions.cs" />
+    <Compile Include="Reservation.cs" />
+    <Compile Include="Reservations.cs" />
+    <Compile Include="ReservationStatus.cs" />
+    <Compile Include="ReservationStatuses.cs" />
+    <Compile Include="Room.cs" />
+    <Compile Include="RoomKinds.cs" />
+    <Compile Include="FilterSeacrh.cs" />
+    <Compile Include="Season.cs" />
+    <Compile Include="StatusesCollaboration.cs" />
+    <Compile Include="StayPackage.cs" />
+    <Compile Include="StayPackages.cs" />
+    <Compile Include="StayProcedures.cs" />
+    <Compile Include="StayPrograms.cs" />
+    <Compile Include="Tax.cs" />
+    <Compile Include="Term.cs" />
+    <Compile Include="Town.cs" />
+    <Compile Include="Unit.cs" />
+    <Compile Include="WayAccountingPricesAccommodation.cs" />
+    <Compile Include="WelcomeEmailAddText.cs" />
+    <Compile Include="Zip.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Moon.Api\Moon.Api\Moon.Api.csproj">
+      <Project>{39ca8b20-9daf-4a5b-81a2-c423996686e0}</Project>
+      <Name>Moon.Api</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Moon.Configuration\Moon.Configuration\Moon.Configuration.csproj">
+      <Project>{bdf8fd83-0526-4fcf-a27b-7cf17325475d}</Project>
+      <Name>Moon.Configuration</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Moon.Globalization\Moon.Globalization\Moon.Globalization.csproj">
+      <Project>{43996ACD-A773-4789-A414-0745F27CAF2D}</Project>
+      <Name>Moon.Globalization</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Moon.Net\Moon.Net\Moon.Net.csproj">
+      <Project>{B63585E7-B4A8-49BA-B253-F3C9584B191F}</Project>
+      <Name>Moon.Net</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Moon.Web\Moon.Web\Moon.Web.csproj">
+      <Project>{99d6dc37-4fae-4d9b-82a6-c7c039237a31}</Project>
+      <Name>Moon.Web</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Moon.Xml\Moon.Xml.Serialization\Moon.Xml.Serialization.csproj">
+      <Project>{4caf8cd0-aa1c-4194-93bb-f4fdade9a936}</Project>
+      <Name>Moon.Xml.Serialization</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
